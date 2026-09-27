@@ -9,7 +9,8 @@ The site is plain HTML and CSS. No build step or external dependencies are requi
 - `index.html`: biography, research interests, publications, and links.
 - `styles.css`: typography, colors, spacing, and responsive layout.
 - `assets/`: profile photo and publication thumbnails. Each thumbnail opens at full size.
-- `ASSET-SOURCES.md`: sources for the original paper figures used in all seven publication thumbnails.
+- `ASSET-SOURCES.md`: sources for the original and author-supplied publication figures.
+- `PUBLICATION-DATES.md`: date sources and chronological ordering rules.
 - `.nojekyll`: serves the static files directly on GitHub Pages.
 
 ## Preview

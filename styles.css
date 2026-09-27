@@ -67,8 +67,10 @@ h3 a { color: var(--accent); text-decoration: none; }
 .company-logo { display: inline-flex; flex-shrink: 0; }
 .company-logo img { display: block; width: auto; height: 20px; }
 .company-meta { color: var(--muted); font-size: .875rem; margin-bottom: .75rem; }
-.company-products { margin: 0; padding-left: 1.25rem; }
-.company-products li + li { margin-top: .4rem; }
+.company-products { margin: 0; padding: 0; list-style: none; }
+.company-products li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: .6rem; align-items: start; }
+.company-products li + li { margin-top: .55rem; }
+.product-logo { display: block; width: 24px; height: 24px; margin-top: .075rem; border-radius: 3px; }
 .company-products a { font-weight: 600; }
 footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; border-top: 1px solid var(--rule); padding: 1.3rem 0 1.8rem; color: var(--muted); font-size: .8125rem; }
 footer a { text-decoration: none; }

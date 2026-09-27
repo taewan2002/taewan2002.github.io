@@ -6,6 +6,8 @@ The layout is independently implemented in HTML/CSS, taking inspiration from the
 | --- | --- |
 | `assets/portrait.jpg` | Taewan Cho's public GitHub profile image, downloaded unchanged from https://avatars.githubusercontent.com/u/89565530?v=4. |
 | `assets/plaid-labs.svg` | Official Plaid Labs navigation wordmark, copied unchanged from https://plaidlabs.ai/images/layout/gnb-logo.svg. Displayed at 20px high in the Company heading and linked to https://plaidlabs.ai/. |
+| `assets/nuvion-logo.png` | NUVION logo supplied by Taewan Cho (368 × 368 PNG), copied unchanged. Displayed beside the NUVION product description. |
+| `assets/opscale-logo.png` | OPSCALE logo supplied by Taewan Cho (368 × 368 PNG), copied unchanged. Displayed beside the OPSCALE product description. |
 | `assets/retovla.png` | Figure 1 of RetoVLA, Jiyeon Koo, Taewan Cho, et al. Original image from https://arxiv.org/html/2509.21243v2/fig1.png; paper: https://arxiv.org/abs/2509.21243. |
 | `assets/spaceclip.png` | Figure 2 of SPACE-CLIP, Taewan Cho, Taeryang Kim, Andrew Jaeyong Choi. Original image from https://arxiv.org/html/2601.17657v3/fig2.png; paper: https://arxiv.org/abs/2601.17657. |
 | `assets/edgezsad.png` | Figure 2 of EdgeZSAD, Taewan Cho and Andrew Jaeyong Choi. Image extracted without content changes from page 2 of https://arxiv.org/pdf/2606.16119; paper: https://arxiv.org/abs/2606.16119. |

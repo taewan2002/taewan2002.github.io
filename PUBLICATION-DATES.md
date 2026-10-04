@@ -17,3 +17,11 @@ Journal entries use the journal issue month. Conference entries use the conferen
 | SPACE-CLIP | 2026.01. | [arXiv submission history](https://arxiv.org/abs/2601.17657): January 25, 2026. March 2026 revisions do not change its initial publication month. |
 
 Existing public date sources verified September 27, 2026; GeoBridge-VLA local draft metadata updated from the author's instructions on September 30, 2026. Keep this source record in sync when dates change.
+
+## AI aircraft flight safety paper — added October 4, 2026
+
+- **Display:** 2025.06., after APISAT 2025 and before the preprint group.
+- **Journal:** Journal of the Korean Society for Aeronautical and Space Sciences, 53(6), 665–674.
+- **DOI:** https://doi.org/10.5139/JKSAS.2025.53.6.665
+- **Sources:** [Gachon ScholarWorks](https://gachon.scholarworks.kr/item/d4974854-d06a-4343-a8ee-1092c62ad31a) records the June 2025 issue month and six authors; [KCI](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003204565) confirms the journal, volume, issue, pages, and DOI. Author order follows the author-supplied entry. At Taewan Cho's request, display names use consistent capitalization (Taewan, Chansoo, Minkyu, Hyunwoo, Changeon), and the final author is displayed as Andrew Jaeyong Choi.
+- **Presentation:** Author-supplied W-shaped AI/ML assurance process figure, added unchanged on October 4, 2026. See `ASSET-SOURCES.md`.

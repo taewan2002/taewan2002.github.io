@@ -1,0 +1,27 @@
+{
+  "name": "Taewan Cho",
+  "korean_name": "조태완",
+  "email": "taewan2002@kaist.ac.kr",
+  "scholar": "https://scholar.google.com/citations?user=p2SmaqwAAAAJ",
+  "linkedin": "https://kr.linkedin.com/in/taewan02",
+  "github": "https://github.com/taewan2002",
+  "bio": "I am a <strong>Ph.D. student at <a href=\"https://www.kaist.ac.kr/\">KAIST</a></strong>, advised by <a href=\"https://scholar.google.com/citations?user=v5hGAWMAAAAJ\">Prof. Han-Lim Choi</a> in the <a href=\"http://lics.kaist.ac.kr/\">Laboratory for Information and Control Systems (LiCS)</a>. My research interests include vision-language models, multi-agent systems, and intelligent robotics. I am particularly interested in how <strong>robot swarms coordinate and make decentralized decisions</strong> under limited sensing, communication, and computation. My long-term interests also include superintelligence and how learning and reasoning can enable more capable autonomous systems.",
+  "interests": [
+    "Vision-Language Models",
+    "Multi-Agent Systems",
+    "Intelligent Robotics",
+    "Superintelligence"
+  ],
+  "selected_papers": [
+    "retovla",
+    "spaceclipv2"
+  ],
+  "company_email": "technoking@plaid.ai.kr",
+  "bio_ko": "저는 <strong><a href=\"https://www.kaist.ac.kr/\">KAIST</a> 박사과정</strong>으로, <a href=\"http://lics.kaist.ac.kr/\">정보 및 제어 시스템 연구실(LiCS)</a>에서 <a href=\"https://scholar.google.com/citations?user=v5hGAWMAAAAJ\">최한림 교수님</a>의 지도를 받고 있습니다. 시각·언어 모델, 다중 에이전트 시스템, 지능형 로봇을 연구합니다. 특히 제한된 센싱·통신·연산 자원 아래에서 <strong>로봇 군집이 협력하고 분산 의사결정을 내리는 방법</strong>에 관심이 있습니다. 장기적으로는 초지능과, 학습·추론을 통한 자율 시스템의 역량 확장을 탐구하고 싶습니다.",
+  "interests_ko": [
+    "시각·언어 모델",
+    "다중 에이전트 시스템",
+    "지능형 로봇",
+    "초지능"
+  ]
+}

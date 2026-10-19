@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="550" viewBox="0 0 760 550" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Matrix multiplication: useful output and proof-of-work transcript</title><desc id="desc">Add low-rank noise E and F to input matrices A and B. Record partial sums in a prescribed order while computing C prime. Remove noise to recover AB; hash the transcript to check the mining target. If the target is met, submit a proof and block for other nodes to verify.</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8" fill="#202124"/></marker></defs>
+<style>text{font-family:Arial,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}.math{font-family:"Times New Roman",serif;font-style:italic}.code{font-family:Menlo,Consolas,monospace}</style>
+<rect width="760" height="550" fill="#fff"/>
+<text x="380.0" y="26" font-size="14" fill="#666a70" text-anchor="middle" font-weight="400" class="">Input matrices + low-rank noise</text>
+<path d="M240.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M230.0 58 H270.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M250.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M230.0 68 H270.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M260.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M230.0 78 H270.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M234.0 48 H227.0 V88 H234.0" fill="none" stroke="#202124" stroke-width="1.15"/>
+<path d="M266.0 48 H273.0 V88 H266.0" fill="none" stroke="#202124" stroke-width="1.15"/>
+<text x="250" y="110" font-size="20" fill="#202124" text-anchor="middle" font-weight="400" class="math">A + E</text>
+<path d="M250 120 V140 H380.0 V157" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<path d="M500.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M490.0 58 H530.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M510.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M490.0 68 H530.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M520.0 48 V88" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M490.0 78 H530.0" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M494.0 48 H487.0 V88 H494.0" fill="none" stroke="#202124" stroke-width="1.15"/>
+<path d="M526.0 48 H533.0 V88 H526.0" fill="none" stroke="#202124" stroke-width="1.15"/>
+<text x="510" y="110" font-size="20" fill="#202124" text-anchor="middle" font-weight="400" class="math">B + F</text>
+<path d="M510 120 V140 H380.0 V157" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<rect x="150" y="160" width="460" height="143" fill="none" stroke="#202124"/>
+<text x="380.0" y="187" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="math">C′ = (A + E)(B + F)</text>
+<path d="M214.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M203.5 222 H236.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M225.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M203.5 233 H236.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M207.5 211 H200.5 V244 H207.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<path d="M232.5 211 H239.5 V244 H232.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<text x="220" y="268" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="math">S₁</text>
+<path d="M374.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M363.5 222 H396.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M385.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M363.5 233 H396.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M367.5 211 H360.5 V244 H367.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<path d="M392.5 211 H399.5 V244 H392.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<text x="380" y="268" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="math">S₂</text>
+<path d="M534.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M523.5 222 H556.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M545.5 211 V244" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M523.5 233 H556.5" fill="none" stroke="#c7c9cd" stroke-width="1.15"/>
+<path d="M527.5 211 H520.5 V244 H527.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<path d="M552.5 211 H559.5 V244 H552.5" fill="none" stroke="#202124" stroke-width="1.15"/>
+<text x="540" y="268" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="math">C′</text>
+<path d="M244 228 H354" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<path d="M404 228 H514" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<rect x="448.0" y="218" width="24" height="20" fill="#fff" stroke="none"/>
+<text x="460.0" y="233" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="">···</text>
+<text x="380.0" y="290" font-size="12" fill="#666a70" text-anchor="middle" font-weight="400" class="">GEMM · partial sums in a fixed order</text>
+<path d="M210 303 V350" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<path d="M550 303 V350" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="222" y="334" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Final value</text>
+<text x="562" y="334" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Partial sums</text>
+<text x="210" y="378" font-size="16" fill="#202124" text-anchor="middle" font-weight="400" class="">Recover the useful output</text>
+<text x="210" y="411" font-size="18" fill="#202124" text-anchor="middle" font-weight="400" class="math">AB = C′ − AF − E(B + F)</text>
+<path d="M210 426 V458" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="210" y="484" font-size="15" fill="#202124" text-anchor="middle" font-weight="400" class="">Use in the next operation</text>
+<text x="550" y="376" font-size="17" fill="#202124" text-anchor="middle" font-weight="400" class="code">transcript</text>
+<text x="550" y="405" font-size="16" fill="#202124" text-anchor="middle" font-weight="400" class="math">H(transcript) &lt; target</text>
+<path d="M550 417 V449" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="562" y="438" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">If met</text>
+<text x="550" y="474" font-size="15" fill="#202124" text-anchor="middle" font-weight="400" class="">Submit proof + block</text>
+<path d="M550 485 V512" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="550" y="535" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Other nodes verify</text>
+</svg>

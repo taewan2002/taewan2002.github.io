@@ -1,0 +1,20 @@
+[
+  {
+    "id": "human-researcher",
+    "name": "Human Researcher",
+    "kind": "OPEN-SOURCE AGENT SKILLS",
+    "summary": "논문과 아이디어를, 스스로 설명할 수 있는 연구계획으로.",
+    "summary_en": "From papers and ideas to a research proposal you can defend.",
+    "description": "Claude Code·Codex에 설치해 사용하는 오픈소스 연구 스킬 모음입니다. 논문 읽기와 선행연구 탐색부터 아이디어 구체화, 실험 설계, proposal 작성·검토까지 돕습니다.",
+    "detail": "선행연구를 taxonomy로 정리하고, 필요한 자원과 일정을 견적내고, 연구의 필요성·실현 가능성·검증 방법을 점검합니다. AI가 과정을 돕고, 연구자가 질문과 판단의 주도권을 갖습니다.",
+    "image": "assets/human-researcher.png",
+    "image_width": 2172,
+    "image_height": 724,
+    "image_alt": "Human Researcher — From papers to a proposal you can defend",
+    "url": "https://github.com/taewan2002/human-researcher",
+    "description_en": "Open-source research skills you can install in Claude Code and Codex. Read papers, explore related work, develop ideas, design experiments, and write and review research proposals.",
+    "detail_en": "Map prior work into a taxonomy, estimate resources and timelines, and examine why a study matters, whether it is feasible, and how to test it. AI helps structure the work; the researcher owns the questions and decisions.",
+    "kind_ko": "오픈소스 에이전트 스킬",
+    "image_alt_ko": "Human Researcher — 논문에서 스스로 설명할 수 있는 연구계획으로"
+  }
+]

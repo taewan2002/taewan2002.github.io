@@ -1,0 +1,54 @@
+<section class="intro" aria-labelledby="name">
+  <div class="profile-card">
+    <figure class="portrait"><img src="/assets/portrait.jpg" alt="$portrait_alt" width="460" height="460" fetchpriority="high"></figure>
+    <h1 id="name">$display_name</h1>
+    <p class="profile-email">$email</p>
+    <ul class="contact-links" aria-label="$profiles_label"><li><a href="$scholar">Google Scholar ↗</a></li><li><a href="$github">GitHub ↗</a></li><li><a href="$linkedin">LinkedIn ↗</a></li></ul>
+  </div>
+  <div class="intro-copy">
+    <p class="eyebrow">$home_eyebrow</p>
+    <h2 class="tagline">$tagline</h2>
+    <p class="intro-bio">$intro_research $intro_direction</p>
+    <p class="intro-bio">$intro_company</p>
+    <ul class="research-keywords" aria-label="$interests_label">$home_interests</ul>
+  </div>
+</section>
+
+<section class="home-section" id="publications" aria-labelledby="research-title">
+  <div class="section-label"><span class="section-index">01 / $nav_research</span><h2 id="research-title">$selected_title</h2><a class="text-link" href="${prefix}/research/">$all_publications <span aria-hidden="true">↗</span></a></div>
+  <div class="section-content selected-papers">$selected_papers</div>
+</section>
+
+<section class="home-section company-home" id="company" aria-labelledby="company-title">
+  <div class="section-label company-home-identity">
+    <span class="section-index">02 / $nav_company</span>
+    <h2 id="company-title"><img class="company-home-logo" src="/assets/plaid-labs-white.png" alt="Plaid Labs" width="1339" height="174" loading="lazy"></h2>
+    <span class="small-label">$founder_label</span>
+    <a class="text-link" href="${prefix}/company/">$explore_company <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="section-content company-home-body">
+    <p class="company-home-statement">$company_summary</p>
+    <p class="company-home-detail">$company_home_detail</p>
+    <ul class="company-home-products" aria-label="$company_products">
+      <li><a class="company-home-product" href="https://plaidlabs.ai/ai/nuvion"><span class="company-home-product-name">NUVION <span class="product-arrow" aria-hidden="true">↗</span></span><span class="company-home-product-description">$nuvion_home_description</span></a></li>
+      <li><a class="company-home-product" href="https://plaidlabs.ai/ai/opscale"><span class="company-home-product-name">OPSCALE <span class="product-arrow" aria-hidden="true">↗</span></span><span class="company-home-product-description">$opscale_home_description</span></a></li>
+    </ul>
+    <div class="company-home-footer">
+      <p class="company-home-contact"><span>$company_contact_title</span><span class="company-home-email">$company_email</span></p>
+      <a class="company-home-website" href="https://plaidlabs.ai/">plaidlabs.ai <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="home-section" id="open-source" aria-labelledby="open-source-title">
+  <div class="section-label"><span class="section-index">03 / $nav_project</span><h2 id="open-source-title">$source_home_title</h2><span class="small-label">$agent_skills</span><a class="text-link" href="${prefix}/project/">$explore_source <span aria-hidden="true">↗</span></a></div>
+  <div class="section-content">
+    <a class="featured-art" href="${prefix}/project/#human-researcher"><img src="/assets/human-researcher.png" alt="$human_researcher_alt" width="2172" height="724" loading="lazy"></a>
+    $featured_project_summary
+  </div>
+</section>
+
+<section class="home-section blog-home" id="blog" aria-labelledby="blog-title">
+  <div class="section-label"><span class="section-index">04 / $nav_blog</span><h2 id="blog-title">$blog_home_title</h2><a class="text-link" href="${prefix}/blog/">$visit_blog <span aria-hidden="true">↗</span></a></div>
+  <div class="section-content"><p class="blog-intro">$blog_lead</p>$recent_posts</div>
+</section>

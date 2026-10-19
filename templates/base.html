@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="$lang">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <meta property="og:type" content="$og_type">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="https://taewan2002.github.io/assets/portrait.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b0d0f">
+  <link rel="canonical" href="$canonical">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='0' fill='%230b0d0f'/%3E%3Ctext x='32' y='44' fill='%23ffffff' font-family='Arial' font-size='39' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css?v=$stylesheet_version">
+  <link rel="alternate" type="application/rss+xml" title="Taewan Cho — Blog" href="/feed.xml">
+  $alternate_links
+  <script src="/assets/language-switch.js" defer></script>
+$extra_head
+</head>
+<body id="top" data-page="$section">
+  <a class="skip-link" href="#main">$skip_label</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="wordmark" href="$home_url">$display_name</a>
+      <div class="header-controls"><nav aria-label="$nav_label">$navigation</nav><div class="language-switch" role="group" aria-label="$language_label">$language_switch</div></div>
+    </header>
+    <main id="main">$content</main>
+    <footer class="site-footer">
+      <div><a class="footer-name" href="$home_url">$display_name</a><span class="footer-note">$footer_note</span></div>
+      <div class="footer-links"><a href="$github">GitHub ↗</a><a href="$linkedin">LinkedIn ↗</a></div>
+    </footer>
+  </div>
+</body>
+</html>

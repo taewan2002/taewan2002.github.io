@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="955" viewBox="0 0 360 955" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Memory paths with separate and fused kernels</title><desc id="desc">The separate-kernel panel is hypothetical: write GEMM partial sums to off-chip memory and read them in a recording kernel. The fused mainloop updates the transcript from register accumulators, avoiding that extra round trip. Input loads and final output and transcript stores remain. The full proof pipeline is omitted.</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8" fill="#202124"/></marker></defs>
+<style>text{font-family:Arial,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}.math{font-family:"Times New Roman",serif;font-style:italic}.code{font-family:Menlo,Consolas,monospace}</style>
+<rect width="360" height="955" fill="#fff"/>
+<text x="22" y="35" font-size="17" fill="#202124" text-anchor="start" font-weight="600" class="">(a) Separate kernels</text>
+<text x="22" y="53" font-size="11" fill="#666a70" text-anchor="start" font-weight="400" class="">Hypothetical comparison</text>
+<rect x="22" y="64" width="316" height="54" fill="#f6f6f6" stroke="#202124"/>
+<text x="180.0" y="87" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Off-chip memory</text>
+<text x="180.0" y="107" font-size="12" fill="#666a70" text-anchor="middle" font-weight="400" class="code">HBM / GDDR</text>
+<rect x="22" y="226" width="316" height="201" fill="none" stroke="#c7c9cd" stroke-dasharray="4 4"/>
+<text x="180.0" y="248" font-size="12" fill="#666a70" text-anchor="middle" font-weight="400" class="">On-chip · SM</text>
+<rect x="37" y="285" width="110" height="80" fill="none" stroke="#202124"/>
+<text x="92" y="311" font-size="17" fill="#202124" text-anchor="middle" font-weight="400" class="code">GEMM</text>
+<text x="92" y="335" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Partial sum Sₖ</text>
+<text x="92" y="355" font-size="11" fill="#666a70" text-anchor="middle" font-weight="400" class="code">kernel 1</text>
+<rect x="213" y="285" width="110" height="80" fill="none" stroke="#202124"/>
+<text x="268" y="311" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Accumulate</text>
+<text x="268" y="335" font-size="12" fill="#202124" text-anchor="middle" font-weight="400" class="code">transcript</text>
+<text x="268" y="355" font-size="11" fill="#666a70" text-anchor="middle" font-weight="400" class="code">kernel 2</text>
+<path d="M57 118 V285" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="65" y="174" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Input</text>
+<path d="M121 285 V118" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)" stroke-dasharray="4 4"/>
+<text x="130" y="207" font-size="12" fill="#202124" text-anchor="start" font-weight="400" class="">Write</text>
+<path d="M270 118 V285" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)" stroke-dasharray="4 4"/>
+<text x="279" y="174" font-size="12" fill="#202124" text-anchor="start" font-weight="400" class="">Read</text>
+<text x="180.0" y="397" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Extra round trip for partial sums</text>
+<text x="22" y="453" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Dashed arrows: extra intermediate transfers.</text>
+<text x="22" y="517" font-size="17" fill="#202124" text-anchor="start" font-weight="600" class="">(b) Fused kernel</text>
+<text x="22" y="535" font-size="11" fill="#666a70" text-anchor="start" font-weight="400" class="">Integer GEMM path</text>
+<rect x="22" y="546" width="316" height="54" fill="#f6f6f6" stroke="#202124"/>
+<text x="180.0" y="569" font-size="14" fill="#202124" text-anchor="middle" font-weight="400" class="">Off-chip memory</text>
+<text x="180.0" y="589" font-size="12" fill="#666a70" text-anchor="middle" font-weight="400" class="code">HBM / GDDR</text>
+<rect x="22" y="708" width="316" height="201" fill="none" stroke="#c7c9cd" stroke-dasharray="4 4"/>
+<text x="180.0" y="730" font-size="12" fill="#666a70" text-anchor="middle" font-weight="400" class="">On-chip · SM</text>
+<path d="M59 600 V762" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="71" y="652" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">TMA · load input tiles</text>
+<path d="M304 763 V600" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="292" y="689" font-size="12" fill="#666a70" text-anchor="end" font-weight="400" class="">Store output + transcript</text>
+<rect x="37" y="750" width="286" height="137" fill="none" stroke="#202124"/>
+<text x="52" y="773" font-size="12" fill="#202124" text-anchor="start" font-weight="400" class="code">shared memory → WGMMA</text>
+<text x="52" y="804" font-size="13" fill="#202124" text-anchor="start" font-weight="400" class="">Accumulator Sₖ</text>
+<path d="M152 799 H237" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="248" y="804" font-size="14" fill="#202124" text-anchor="start" font-weight="400" class="">Accumulate</text>
+<text x="52" y="830" font-size="11" fill="#666a70" text-anchor="start" font-weight="400" class="code">registers</text>
+<text x="248" y="830" font-size="11" fill="#666a70" text-anchor="start" font-weight="400" class="code">transcript</text>
+<path d="M278 841 V859 H88 V841" fill="none" stroke="#202124" stroke-width="1.15" marker-end="url(#arrow)"/>
+<text x="52" y="877" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Next K tile · same kernel mainloop</text>
+<text x="22" y="935" font-size="12" fill="#666a70" text-anchor="start" font-weight="400" class="">Input and final output transfers remain.</text>
+</svg>

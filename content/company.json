@@ -1,0 +1,209 @@
+{
+  "source_checked": "2026-10-18",
+  "sources": [
+    "https://plaidlabs.ai/",
+    "https://plaidlabs.ai/ai/opscale",
+    "https://plaidlabs.ai/ai/nuvion",
+    "https://plaidlabs.ai/portfolio/12",
+    "https://plaidlabs.ai/portfolio/7"
+  ],
+  "copy": {
+    "en": {
+      "company_intro": "We connect AI, software, and hardware to solve problems in the workplace. From initial validation to deployment and operation, we build around each client’s data and equipment.",
+      "company_membership": "Member of the NVIDIA Inception Program",
+      "capabilities_label": "CAPABILITIES",
+      "capabilities_title": "Built around\nyour environment.",
+      "products_label": "PRODUCTS",
+      "products_title": "Focused tools.\nPractical applications.",
+      "product_link": "Explore the product",
+      "cases_label": "SELECTED WORK",
+      "cases_title": "Systems built for real settings.",
+      "case_link": "Read the case study",
+      "approach_label": "HOW WE WORK",
+      "approach_title": "Validate first.\nBuild from evidence.",
+      "approach_body": "We examine the task and equipment, test feasibility on the client’s data, then define the scope of deployment.",
+      "steps": [
+        "Assess the workflow and equipment",
+        "Validate with real data",
+        "Build, integrate, and operate"
+      ],
+      "company_more": "More about Plaid Labs",
+      "company_headline": "AI, where work happens.",
+      "qualcomm_recognition": "QAIPI 2026 APAC · Selected company",
+      "company_problem": "Limited defect data, device constraints, disconnected tools. These are the conditions we design for.",
+      "inspection_note": "NUVION is evaluated against each production line’s inspection data, lighting, and acceptance criteria. Applicable conditions and performance are validated on site.",
+      "edge_title": "From signals\nto decisions.",
+      "edge_body": "We implement industrial AI on Qualcomm-based boards, connecting model optimization and local inference with the systems used on site.",
+      "edge_steps": [
+        {
+          "title": "Connect",
+          "body": "Video and sensor data from the field."
+        },
+        {
+          "title": "Run locally",
+          "body": "Model optimization and on-device inference."
+        },
+        {
+          "title": "Act",
+          "body": "Inspection decisions, dashboards, and equipment integration."
+        }
+      ],
+      "contact_headline": "What are you\nworking on?",
+      "contact_prompt": "Share the task, existing equipment, and your goal."
+    },
+    "ko": {
+      "company_intro": "AI와 소프트웨어, 하드웨어를 연결해 실제 업무의 문제를 해결합니다. 적용 가능성 검증부터 구축과 운영까지, 고객의 데이터와 장비에 맞춰 함께 만듭니다.",
+      "company_membership": "NVIDIA Inception Program 멤버",
+      "capabilities_label": "구축 영역",
+      "capabilities_title": "현장의 조건에\n맞춰 만듭니다.",
+      "products_label": "제품",
+      "products_title": "각자의 업무에\n집중한 도구.",
+      "product_link": "제품 자세히 보기",
+      "cases_label": "대표 사례",
+      "cases_title": "실제 환경에서 쓰이는 시스템.",
+      "case_link": "구축 사례 보기",
+      "approach_label": "일하는 방식",
+      "approach_title": "먼저 검증하고,\n근거를 바탕으로 구축합니다.",
+      "approach_body": "업무와 현재 장비를 살펴보고, 고객 데이터로 적용 가능성을 확인한 뒤 구축 범위를 정합니다.",
+      "steps": [
+        "현장·업무 진단",
+        "적용 가능성 검증",
+        "구축·연동 및 운영"
+      ],
+      "company_more": "Plaid Labs 더 알아보기",
+      "company_headline": "AI가 현장에서 일하도록.",
+      "qualcomm_recognition": "QAIPI 2026 APAC 선정기업",
+      "company_problem": "부족한 불량 데이터, 장비의 연산 제약, 따로 떨어진 업무 도구. 이런 현장의 조건에서 출발합니다.",
+      "inspection_note": "NUVION은 공정별 검사 데이터·조명 조건·판정 기준에 맞춰 확인합니다. 적용 조건과 성능은 고객 공정에서 검증합니다.",
+      "edge_title": "현장의 신호를\n실행 가능한 판단으로.",
+      "edge_body": "Qualcomm 기반 보드에 산업용 AI를 구현합니다. 모델 최적화와 온디바이스 추론을 현장 시스템에 연결합니다.",
+      "edge_steps": [
+        {
+          "title": "데이터 연결",
+          "body": "현장의 영상·센서 데이터를 연결합니다."
+        },
+        {
+          "title": "기기 내 추론",
+          "body": "모델 최적화와 온디바이스 AI 추론을 수행합니다."
+        },
+        {
+          "title": "판정과 연동",
+          "body": "검사 결과를 운영 화면·장비·업무 시스템으로 연결합니다."
+        }
+      ],
+      "contact_headline": "어떤 일을\n만들고 계신가요?",
+      "contact_prompt": "업무 내용, 현재 장비, 목표를 알려주세요."
+    }
+  },
+  "capabilities": [
+    {
+      "en": {
+        "title": "On-premises LLMs",
+        "body": "Connect internal documents and business systems to models running on company servers."
+      },
+      "ko": {
+        "title": "사내 LLM 구축",
+        "body": "내부 문서와 업무 시스템을 사내 서버의 AI에 연결합니다."
+      }
+    },
+    {
+      "en": {
+        "title": "Edge & on-device AI",
+        "body": "Adapt models to the compute, memory, and response requirements of field devices."
+      },
+      "ko": {
+        "title": "엣지·온디바이스 AI",
+        "body": "현장 장비의 연산·메모리·응답 시간 조건에 맞춰 모델을 최적화합니다."
+      }
+    },
+    {
+      "en": {
+        "title": "Hardware & system integration",
+        "body": "Turn sensor and camera data into dashboards, alerts, and operational workflows."
+      },
+      "ko": {
+        "title": "하드웨어·시스템 연동",
+        "body": "센서·카메라 데이터를 운영 화면, 알림, 업무 흐름으로 연결합니다."
+      }
+    },
+    {
+      "en": {
+        "title": "Interactive spaces",
+        "body": "Link tablet and mobile input to lighting and physical installations."
+      },
+      "ko": {
+        "title": "인터랙티브 공간",
+        "body": "태블릿·모바일 입력이 조명과 현장 장치를 움직이는 체험을 만듭니다."
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "OPSCALE",
+      "image": "assets/opscale-logo.png",
+      "url": "https://plaidlabs.ai/ai/opscale",
+      "en": {
+        "category": "TEAM AI WORKFLOWS",
+        "body": "Connect your team’s knowledge, tools, and execution permissions. Share skills across AI agents, automate recurring work, and manage versions and execution history in one place."
+      },
+      "ko": {
+        "category": "팀의 AI 업무 운영",
+        "body": "팀의 지식·업무 도구·실행 권한을 연결합니다. AI 에이전트가 같은 Skill로 일하고, 반복 업무 자동화와 버전·실행 이력을 함께 관리합니다."
+      }
+    },
+    {
+      "name": "NUVION",
+      "image": "assets/nuvion-logo.png",
+      "url": "https://plaidlabs.ai/ai/nuvion",
+      "en": {
+        "category": "AI VISUAL INSPECTION",
+        "body": "AI inspection for manufacturing sites with limited defect data. Combines zero-shot anomaly detection with NPU inference to reduce per-product retraining and support inspection on local hardware."
+      },
+      "ko": {
+        "category": "제조 현장 AI 비전 검사",
+        "body": "불량 데이터가 부족한 제조 현장을 위한 AI 검사 솔루션입니다. 제로샷 이상탐지와 NPU 추론을 결합해 제품별 재학습 부담을 줄이고 현장 장비에서 검사합니다."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "url": "https://plaidlabs.ai/portfolio/12",
+      "en": {
+        "category": "WEARABLES · DATA SYSTEMS",
+        "title": "Galaxy Watch field monitoring",
+        "context": "For an industrial safety and healthcare company · 2026",
+        "body": "Connected wearable signals and motion data to stress and walking-fatigue analysis, personal feedback, and an administrator dashboard. The work spans data collection, signal processing, and monitoring."
+      },
+      "ko": {
+        "category": "웨어러블 · 데이터 시스템",
+        "title": "Galaxy Watch 현장 모니터링",
+        "context": "산업 안전·헬스케어 기업 · 2026",
+        "body": "웨어러블 생체신호와 움직임 데이터를 스트레스·보행 피로도 분석, 개인 피드백, 관리자 대시보드로 연결했습니다. 데이터 수집부터 신호 처리와 모니터링까지 구축한 사례입니다."
+      }
+    },
+    {
+      "url": "https://plaidlabs.ai/portfolio/7",
+      "en": {
+        "category": "IoT · INTERACTIVE SPACES",
+        "title": "KFC × Stranger Things pop-up",
+        "context": "Client: 리스페이스 · 2025",
+        "body": "Built a Raspberry Pi control system linking tablet input to physical lighting, with an operations dashboard and scenario controls for on-site staff. Developed for the pop-up agency 리스페이스."
+      },
+      "ko": {
+        "category": "IoT · 인터랙티브 공간",
+        "title": "KFC × Stranger Things 팝업",
+        "context": "고객사: 리스페이스 · 2025",
+        "body": "리스페이스와 협업해 태블릿 입력을 실제 조명으로 연결하는 Raspberry Pi 제어 시스템을 구축했습니다. 현장 스태프가 사용하는 운영 화면과 시나리오 제어도 함께 구현했습니다."
+      }
+    }
+  ],
+  "source_document": {
+    "name": "plaid-labs-A4-trifold-print.pdf",
+    "revision": "2026-10-12-v21",
+    "provided_by": "site owner",
+    "pages": [
+      1,
+      2
+    ]
+  }
+}

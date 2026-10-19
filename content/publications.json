@@ -1,0 +1,225 @@
+[
+  {
+    "id": "spaceclipv2",
+    "title": "SPACE-CLIPv2: Decoding Local Geometry from Frozen CLIP for Monocular Depth Estimation",
+    "url": "https://arxiv.org/abs/2610.05029",
+    "authors": "Hyun Song, <strong>Taewan Cho</strong>, Kangmin Kim, Andrew Jaeyong Choi",
+    "venue": "Asian Conference on Computer Vision (ACCV)",
+    "date": "2026-12",
+    "date_note": "Conference scheduled for December 14–18, 2026",
+    "summary": "Decoding local geometry from frozen CLIP tokens through fixed neighborhood aggregation, gated residual updates, and shallow token-detail refinement.",
+    "image": "assets/spaceclipv2.png",
+    "image_alt": "SPACE-CLIPv2 architecture with a detailed local token aggregation module, gated residual update, frozen CLIP encoder, and depth decoder",
+    "image_width": 5096,
+    "image_height": 3438,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2610.05029"
+      }
+    ],
+    "summary_ko": "고정된 이웃 특징 집계, 게이트 기반 잔차 갱신, 얕은 토큰 세부 특징 보정을 통해 동결된 CLIP 토큰에서 지역 기하 정보를 추출합니다.",
+    "image_alt_ko": "SPACE-CLIPv2 구조: 지역 토큰 집계, 게이트 잔차 갱신, 동결된 CLIP 인코더와 깊이 디코더"
+  },
+  {
+    "id": "retovla",
+    "title": "RetoVLA: Reusing Register Tokens for Spatial Reasoning in Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2509.21243",
+    "authors": "Jiyeon Koo*, <strong>Taewan Cho*</strong>, Hyunjoon Kang, Eunseom Pyo, Tae Gyun Oh, Taeryang Kim, Andrew Jaeyong Choi",
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "date": "2026-06",
+    "date_note": "ICRA conference: June 1–5, 2026",
+    "summary": "Reusing internal register tokens to provide spatial context for action generation without increasing the model's parameter count.",
+    "image": "assets/retovla.png",
+    "image_alt": "RetoVLA architecture: register tokens provide spatial context to the action expert",
+    "image_width": 2278,
+    "image_height": 782,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.21243"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=2CseBR-snZg"
+      }
+    ],
+    "summary_ko": "모델의 파라미터 수를 늘리지 않고 내부 register token을 재사용해 행동 생성에 공간 정보를 제공합니다.",
+    "image_alt_ko": "RetoVLA 구조: register token이 행동 전문가에 공간 정보를 제공합니다"
+  },
+  {
+    "id": "impact-agent",
+    "title": "IMPACT-Agent: Intelligent Multimodal Prompt-Driven Agent for Collaborative Teaming",
+    "url": "https://doi.org/10.1109/ACCESS.2026.3674148",
+    "authors": "<strong>Taewan Cho</strong>, Hyunwoo You, Andrew Jaeyong Choi",
+    "venue": "IEEE Access",
+    "date": "2026-03",
+    "date_note": "",
+    "summary": "Connecting multimodal perception and planning for collaborative agent systems.",
+    "image": "assets/impact-agent.png",
+    "image_alt": "IMPACT-Agent figure: a human-supervised OODA loop with multimodal reasoning, detection, path planning, and unmanned vehicles",
+    "image_width": 1328,
+    "image_height": 800,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/ACCESS.2026.3674148"
+      }
+    ],
+    "summary_ko": "협력하는 에이전트 시스템을 위해 멀티모달 지각과 계획을 연결합니다.",
+    "image_alt_ko": "IMPACT-Agent 구조: 사람의 감독 아래 멀티모달 추론, 탐지, 경로 계획과 무인 이동체를 연결한 OODA 루프"
+  },
+  {
+    "id": "model-merging",
+    "title": "Research on Enhancing Model Performance by Merging with Korean Language Models",
+    "url": "https://doi.org/10.1016/j.engappai.2025.111686",
+    "authors": "<strong>Taewan Cho</strong>, Rina Kim, Andrew Jaeyong Choi",
+    "venue": "Engineering Applications of Artificial Intelligence",
+    "date": "2025-11",
+    "date_note": "Journal issue: November 15, 2025",
+    "summary": "Exploring model merging to combine the capabilities of Korean and multilingual language models.",
+    "image": "assets/model-merging.jpg",
+    "image_alt": "Original model-merging figure: a pretrained language model branches into a multitask model and a Korean model, then merges using DARE",
+    "image_width": 1480,
+    "image_height": 853,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1016/j.engappai.2025.111686"
+      }
+    ],
+    "summary_ko": "모델 병합을 통해 한국어 언어 모델과 다국어 언어 모델의 역량을 결합하는 방법을 탐구합니다.",
+    "image_alt_ko": "모델 병합 구조: 사전 학습 언어 모델에서 분기한 다중 작업 모델과 한국어 모델을 DARE로 병합합니다"
+  },
+  {
+    "id": "apisat2025",
+    "title": "Enhancing Imitation Learning for Space Robotic Arm via Monocular Vision-based Spatial Embedding",
+    "url": "",
+    "authors": "<strong>Taewan Cho</strong>, Jiyeon Koo, Andrew Jaeyong Choi",
+    "venue": "Asia-Pacific International Symposium on Aerospace Technology (APISAT)",
+    "date": "2025-10",
+    "date_note": "Presented at APISAT on October 27, 2025",
+    "summary": "Learning spatial embeddings from monocular images to improve imitation learning for robotic manipulation in spacecraft docking assistance.",
+    "image": "assets/apisat2025.png",
+    "image_alt": "Depth-fusion architecture combining wrist, top, and side camera features with robot state to predict action sequences",
+    "image_width": 1274,
+    "image_height": 824,
+    "links": [],
+    "summary_ko": "우주선 도킹 보조를 위한 로봇 조작에서 단안 영상의 공간 임베딩을 학습해 모방학습을 개선합니다.",
+    "image_alt_ko": "깊이 융합 구조: 손목·상단·측면 카메라 특징과 로봇 상태를 결합해 행동 시퀀스를 예측합니다"
+  },
+  {
+    "id": "ai-flight-safety",
+    "title": "Trends in Development of Verification Methods for Flight Safety of AI-Based Military Aircraft Software",
+    "url": "https://doi.org/10.5139/JKSAS.2025.53.6.665",
+    "authors": "<strong>Taewan Cho</strong>, Chansoo Son, Minkyu Jung, Hyunwoo You, Changeon Park, Andrew Jaeyong Choi",
+    "venue": "Journal of the Korean Society for Aeronautical and Space Sciences",
+    "date": "2025-06",
+    "date_note": "Volume 53, Issue 6, pages 665–674",
+    "summary": "Reviewing airworthiness policies, certification standards, and safety assurance approaches for AI-based military aircraft software, with a focus on autonomous flight.",
+    "image": "assets/ai-flight-safety.png",
+    "image_alt": "W-shaped AI/ML assurance process covering requirements, data management, model training, implementation, and verification, with training and implementation feedback loops",
+    "image_width": 1888,
+    "image_height": 858,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.5139/JKSAS.2025.53.6.665"
+      }
+    ],
+    "summary_ko": "자율 비행을 중심으로 AI 기반 군용 항공기 소프트웨어의 감항 정책, 인증 기준, 안전성 검증 방법을 검토합니다.",
+    "image_alt_ko": "W자형 AI/ML 보증 절차: 요구사항, 데이터 관리, 모델 학습, 구현과 검증을 피드백 루프로 연결합니다"
+  },
+  {
+    "id": "geobridge-vla",
+    "title": "GeoBridge-VLA: Geometry-Aware Residual Adaptation for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2610.05026",
+    "authors": "Hyun Song, Kangmin Kim, Loren Jinsoo Um, Minhui Han, Jaehyeok Park, <strong>Taewan Cho</strong>, Andrew Jaeyong Choi",
+    "venue": "Preprint",
+    "date": "2026-10",
+    "date_note": "First arXiv submission: October 4, 2026",
+    "summary": "Injecting depth-derived geometry features into visual tokens through a learned gated residual connection for vision-language-action models.",
+    "image": "assets/geobridge-vla.png",
+    "image_alt": "GeoBridge-VLA architecture: a depth pathway supplies geometry features through a learned gated residual connection to visual tokens in a vision-language-action model",
+    "image_width": 1026,
+    "image_height": 316,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2610.05026"
+      }
+    ],
+    "summary_ko": "학습 가능한 게이트 잔차 연결을 통해 깊이에서 얻은 기하 특징을 시각·언어·행동 모델의 시각 토큰에 주입합니다.",
+    "image_alt_ko": "GeoBridge-VLA 구조: 깊이 경로의 기하 특징을 학습 가능한 게이트 잔차 연결로 시각·언어·행동 모델의 시각 토큰에 전달합니다"
+  },
+  {
+    "id": "spacecraft-berthing",
+    "title": "Depth-Fused Imitation Learning for Manipulator-Assisted Spacecraft Berthing",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268",
+    "authors": "Jiyeon Koo, <strong>Taewan Cho</strong>, Chansoo Son, Andrew Jaeyong Choi",
+    "venue": "Preprint",
+    "date": "2026-06",
+    "date_note": "First posted on SSRN: June 26, 2026",
+    "summary": "Fusing monocular depth with multi-view RGB observations to improve a diffusion policy's tolerance to camera loss in simulated spacecraft berthing.",
+    "image": "assets/spacecraft-berthing.png",
+    "image_alt": "Spacecraft berthing policy figure: multi-view RGB and monocular depth features condition a diffusion policy for manipulator control",
+    "image_width": 5060,
+    "image_height": 2184,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268"
+      }
+    ],
+    "summary_ko": "단안 깊이와 다중 시점 RGB 관측을 결합해 시뮬레이션 우주선 버딩 작업에서 diffusion policy의 카메라 손실에 대한 강건성을 높입니다.",
+    "image_alt_ko": "우주선 버딩 정책 구조: 다중 시점 RGB와 단안 깊이 특징을 조건으로 diffusion policy가 로봇 팔을 제어합니다"
+  },
+  {
+    "id": "edgezsad",
+    "title": "EdgeZSAD: Practical Zero-Shot Anomaly Detection on Edge Devices",
+    "url": "https://arxiv.org/abs/2606.16119",
+    "authors": "<strong>Taewan Cho</strong>, Andrew Jaeyong Choi",
+    "venue": "Preprint",
+    "date": "2026-06",
+    "date_note": "First arXiv submission: June 15, 2026",
+    "summary": "Compact zero-shot anomaly detection evaluated across industrial benchmarks and deployed on real edge devices.",
+    "image": "assets/edgezsad.png",
+    "image_alt": "EdgeZSAD architecture: a visual encoder with global ranking and spatial correction branches",
+    "image_width": 3216,
+    "image_height": 1192,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.16119"
+      }
+    ],
+    "summary_ko": "산업용 벤치마크에서 평가하고 실제 엣지 장치에 배포한 경량 제로샷 이상 탐지 모델입니다.",
+    "image_alt_ko": "EdgeZSAD 구조: 시각 인코더와 전역 순위·공간 보정 분기"
+  },
+  {
+    "id": "spaceclip",
+    "title": "SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation",
+    "url": "https://arxiv.org/abs/2601.17657",
+    "authors": "<strong>Taewan Cho</strong>, Taeryang Kim, Andrew Jaeyong Choi",
+    "venue": "Preprint",
+    "date": "2026-01",
+    "date_note": "First arXiv submission: January 25, 2026",
+    "summary": "Reading geometric cues from a frozen CLIP vision encoder with a compact decoder and no text encoder at inference.",
+    "image": "assets/spaceclip.png",
+    "image_alt": "SPACE-CLIP architecture: a frozen CLIP encoder feeds semantic and structural decoding pathways",
+    "image_width": 4221,
+    "image_height": 1654,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2601.17657"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/taewan2002/SPACE-CLIP"
+      }
+    ],
+    "summary_ko": "추론 시 텍스트 인코더 없이, 동결된 CLIP 시각 인코더와 경량 디코더로 기하 정보를 추출합니다.",
+    "image_alt_ko": "SPACE-CLIP 구조: 동결된 CLIP 인코더의 특징을 의미·구조 디코딩 경로로 전달합니다"
+  }
+]

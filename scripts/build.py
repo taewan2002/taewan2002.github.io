@@ -121,11 +121,15 @@ def paper_html(paper, lang, copy):
     heading = f'<a href="{p["url"]}">{p["title"]}</a>' if p["url"] else p["title"]
     summary = p["summary_ko"] if lang == "ko" else p["summary"]
     venue = copy["preprint"] if paper["venue"] == "Preprint" else p["venue"]
+    accepted = paper.get("status") == "accepted"
+    date_attribute = "" if accepted else f' data-publication-date="{p["date"]}"'
+    date_html = ("" if accepted else
+                 f'<time datetime="{p["date"]}" title="{p["date_note"]}">{p["date"].replace("-", ".")}.</time>')
     figure_label = esc(copy["view_figure"].format(name=paper["id"]))
     links = "".join(f'<a href="{esc(a["url"])}">{esc(copy.get("link_" + a["label"].lower(), a["label"]))}</a>' for a in paper["links"])
-    return f'''<article class="paper" id="{p['id']}" data-publication-date="{p['date']}">
+    return f'''<article class="paper" id="{p['id']}"{date_attribute}>
     <figure class="paper-figure"><a href="/{p['image']}" target="_blank" rel="noopener" aria-label="{figure_label}"><img src="/{p['image']}" alt="{p['image_alt_ko'] if lang == 'ko' else p['image_alt']}" width="{p['image_width']}" height="{p['image_height']}" loading="lazy"></a></figure>
-    <div class="paper-content"><p class="venue"><span>{venue}</span><time datetime="{p['date']}" title="{p['date_note']}">{p['date'].replace('-', '.')}.</time></p>
+    <div class="paper-content"><p class="venue"><span>{venue}</span>{date_html}</p>
     <h3 lang="en">{heading}</h3><p class="authors" lang="en">{paper['authors']}</p><p class="paper-summary">{summary}</p><div class="paper-links">{links}</div></div></article>'''
 
 

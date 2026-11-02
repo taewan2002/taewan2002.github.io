@@ -1,5 +1,28 @@
 [
   {
+    "id": "spacecraft-berthing",
+    "title": "Depth-Fused Imitation Learning for Manipulator-Assisted Spacecraft Berthing",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268",
+    "authors": "Jiyeon Koo, <strong>Taewan Cho</strong>, Chansoo Son, Andrew Jaeyong Choi",
+    "venue": "Aerospace Science and Technology",
+    "date": "2026-06",
+    "date_note": "First posted on SSRN: June 26, 2026",
+    "summary": "Fusing monocular depth with multi-view RGB observations to improve a diffusion policy's tolerance to camera loss in simulated spacecraft berthing.",
+    "image": "assets/spacecraft-berthing.png",
+    "image_alt": "Spacecraft berthing policy figure: multi-view RGB and monocular depth features condition a diffusion policy for manipulator control",
+    "image_width": 5060,
+    "image_height": 2184,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268"
+      }
+    ],
+    "summary_ko": "단안 깊이와 다중 시점 RGB 관측을 결합해 시뮬레이션 우주선 버딩 작업에서 diffusion policy의 카메라 손실에 대한 강건성을 높입니다.",
+    "image_alt_ko": "우주선 버딩 정책 구조: 다중 시점 RGB와 단안 깊이 특징을 조건으로 diffusion policy가 로봇 팔을 제어합니다",
+    "status": "accepted"
+  },
+  {
     "id": "spaceclipv2",
     "title": "SPACE-CLIPv2: Decoding Local Geometry from Frozen CLIP for Monocular Depth Estimation",
     "url": "https://arxiv.org/abs/2610.05029",
@@ -151,28 +174,6 @@
     ],
     "summary_ko": "학습 가능한 게이트 잔차 연결을 통해 깊이에서 얻은 기하 특징을 시각·언어·행동 모델의 시각 토큰에 주입합니다.",
     "image_alt_ko": "GeoBridge-VLA 구조: 깊이 경로의 기하 특징을 학습 가능한 게이트 잔차 연결로 시각·언어·행동 모델의 시각 토큰에 전달합니다"
-  },
-  {
-    "id": "spacecraft-berthing",
-    "title": "Depth-Fused Imitation Learning for Manipulator-Assisted Spacecraft Berthing",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268",
-    "authors": "Jiyeon Koo, <strong>Taewan Cho</strong>, Chansoo Son, Andrew Jaeyong Choi",
-    "venue": "Preprint",
-    "date": "2026-06",
-    "date_note": "First posted on SSRN: June 26, 2026",
-    "summary": "Fusing monocular depth with multi-view RGB observations to improve a diffusion policy's tolerance to camera loss in simulated spacecraft berthing.",
-    "image": "assets/spacecraft-berthing.png",
-    "image_alt": "Spacecraft berthing policy figure: multi-view RGB and monocular depth features condition a diffusion policy for manipulator control",
-    "image_width": 5060,
-    "image_height": 2184,
-    "links": [
-      {
-        "label": "Paper",
-        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268"
-      }
-    ],
-    "summary_ko": "단안 깊이와 다중 시점 RGB 관측을 결합해 시뮬레이션 우주선 버딩 작업에서 diffusion policy의 카메라 손실에 대한 강건성을 높입니다.",
-    "image_alt_ko": "우주선 버딩 정책 구조: 다중 시점 RGB와 단안 깊이 특징을 조건으로 diffusion policy가 로봇 팔을 제어합니다"
   },
   {
     "id": "edgezsad",

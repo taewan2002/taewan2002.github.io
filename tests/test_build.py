@@ -259,6 +259,23 @@ class BuildTests(unittest.TestCase):
             self.assertIn('alt="' + builder.esc(paper['image_alt_ko']) + '"', ko)
         self.assertIn('retovla 그림을 원본 크기로 보기', ko)
 
+    def test_accepted_paper_does_not_present_preprint_date_as_journal_date(self):
+        self.build()
+        for prefix in ("", "ko/"):
+            page = (self.root / prefix / "research/index.html").read_text()
+            paper = page.split('<article class="paper" id="spacecraft-berthing"', 1)[1].split('</article>', 1)[0]
+            self.assertIn("Aerospace Science and Technology", paper)
+            self.assertNotIn("Accepted", paper)
+            self.assertNotIn("게재 승인", paper)
+            self.assertNotIn("<time", paper)
+            self.assertNotIn("data-publication-date", paper)
+            self.assertIn("https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6999268", paper)
+            self.assertLess(page.index('id="spacecraft-berthing"'), page.index('id="geobridge-vla"'))
+            # Existing dated entries must retain their actual date presentation.
+            dated = page.split('<article class="paper" id="retovla"', 1)[1].split('</article>', 1)[0]
+            self.assertIn('data-publication-date="2026-06"', dated)
+            self.assertIn('<time datetime="2026-06"', dated)
+
     def test_invalid_front_matter_does_not_overwrite_existing_site(self):
         self.build()
         before = (self.root / "index.html").read_bytes()
